@@ -1,0 +1,253 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #bccbde;
+}
+.container {
+    display: grid;
+    grid-template-columns: 300px 100px;
+    gap: 16px;
+}
+#header-bg {
+    background-color: #ffffff;
+    position: absolute;
+    z-index: 0;
+    width: 100%;
+    margin-left: 300px;
+    padding-bottom: 130px;
+}
+.header {
+
+    display: flex;
+    flex-wrap: wrap;
+    width:1000px;
+    column-gap: 16px;
+    align-items: center;  
+    padding-top: 16px;
+    z-index: 1;  
+}
+
+.img-container {
+    display: flex;
+    gap: 32px;
+    border: 1px solid black;
+    margin-left: auto;
+    padding: 0 30px;
+}
+.morgan {
+    display: flex;
+    padding-top: 25px;
+}
+.btn {
+   padding: 10px;
+   margin-left: auto;
+   justify-content: space-between;
+}
+/*
+
+.header {
+    background-color: rgb(189, 147, 228);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-column: 2 / 4;
+    grid-template-rows: 50px 50px;
+    gap: 32px;
+}
+.header > img {
+    justify-self: end;
+}
+.morgan {
+    display: grid;
+    grid-template-columns: 50px 50px;
+    grid-template-rows: 10px;
+    grid-auto-flow: column;
+    line-height: 1;
+}
+.profile {
+    display: grid;
+}
+
+.header-item {
+    display: flex;
+    gap: 16px;   
+    width: 50px;
+    grid-column: 4;
+    grid-row: 2;
+    padding: 16px;
+}
+*/
+.sidebar {
+    background-color: rgb(0, 140, 255);
+    display: grid;
+    grid-column: 1 / 2;
+    grid-row: 1 / 4;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    height: 600px;
+    width: auto;
+    justify-items: center;
+    display: grid;
+    grid-template-columns: minmax(250px, 250px);
+}
+.first-item {
+    font-size: 2em;
+    display: grid;
+    grid-template-columns: 50px 100px;  
+    padding-bottom: 40px;
+}
+
+.second-item {
+    display: grid;
+    grid-template-columns: 50px 100px;
+}
+.second-item > p {
+    font-size: 20px;
+    line-height: 1.5;
+}
+.third-item {
+    display: grid;
+    grid-template-columns: 50px 100px;
+}
+.third-item > p {
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.fourth-item {
+    display: grid;
+    grid-template-columns: 50px 100px;
+}
+.fourth-item > p {
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.six-item {
+    display: grid;
+    grid-template-columns: 50px 100px;
+}
+.six-item > p {
+    font-size: 20px;
+    line-height: 1.5;
+}
+.seven-item {
+    display: grid;
+    grid-template-columns: 50px 100px;
+}
+.seven-item > p {
+    font-size: 20px;
+    line-height: 1.5;
+}
+.eight-item {
+    display: grid;
+    grid-template-columns: 50px 100px;
+}
+.eight-item > p {
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+
+.nine-item {
+    display: grid;
+    grid-template-columns: 50px 100px;
+}
+.nine-item > p {
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+
+.ten-item {
+    display: grid;
+    grid-template-columns: 50px 100px;
+}
+.ten-item > p {
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+
+.eleven-item {
+    display: grid;
+    grid-template-columns: 50px 100px;
+}
+.eleven-item > p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+.main-container {
+    background-color: #bccbde;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+}
+.main-content1{
+    display: grid;
+    /*grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));*/
+    grid-template-columns:300px 300px;
+    grid-template-rows: 150px;
+    gap: 5px;
+    grid-row:1 / 3;
+}
+
+.main-content-item p {
+    font-size: 1em;
+    color: black;
+}
+.main-content-item {
+    display: grid;
+    grid-template-columns: 200px;
+    background-color: #ffffff;
+    margin: 10px;    
+    border-radius: 5px;
+    justify-content: center;
+    gap: 15px;
+
+    align-content: center;
+    
+}
+.title1-img {
+    display: flex;
+    justify-content: flex-end;
+    gap: 5px;
+  
+}
+.main-content2 {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    justify-content: center;
+    align-content: center;
+    padding-top: -5px;
+    gap: 25px;
+    width: 250px;
+    border: 1px solid black;
+}
+.main-content2 > p{
+    align-items: center;
+}
+.main-content3 {
+    border-radius: 5px;
+    background-color: #ffffff;
+    grid-column: 2 / 3;
+}
+
+#title1 {
+    margin-top: -30px;
+    margin-left: -35px;
+    font-weight: bold;
+}
+.title2 {
+    margin-top: -20px;
+    font-weight: bold;
+}
+.title3 {
+    margin-top: -20px;
+    font-weight: bold;
+}
